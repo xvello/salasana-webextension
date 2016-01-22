@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <style>
+    use {
+      fill: MenuText;
+      fill-opacity: 0.9;
+    }
+  </style>
+  <defs>
+    <path id="shape"
+          d="M 8,0 C 8,0 6,2.6575188 0,3.3242188 0,3.3242188 0,12.6581 8,16 16,12.6581 16,3.3242188 16,3.3242188 10,2.6575188 8,0 8,0 Z m 0,4.25 c 1.242637,0 2.25,1.0074 2.25,2.25 0,0.932 -0.5752515,1.721 -1.3828125,2.0625 L 10,11.75 6,11.75 7.1328125,8.5625 C 6.3252513,8.221 5.75,7.432 5.75,6.5 5.75,5.2574 6.7573632,4.25 8,4.25 Z"/>
+  </defs>
+  <use id="wpg-button" xlink:href="#shape"/>
+</svg>
