@@ -1,0 +1,6 @@
+- copy password to clipboard if injection fails
+- disable icon if url is not http(s)
+- CSS styling
+- better panel resizing
+- better icon
+- module description
