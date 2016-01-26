@@ -3,7 +3,7 @@ moz-password-generator
 
 [Install it on addons.mozilla.org](https://addons.mozilla.org/fr/firefox/addon/domain-password-generator/)
 
-The firefox extension allows you to generate site-specific password from a single master password. This avoids the hassle of remembering a unique password for each website you sign up to.
+This firefox extension allows you to generate site-specific password from a single master password. This avoids the hassle of remembering a unique password for each website you sign up to.
 
 ![Screenshot](https://raw.githubusercontent.com/xvello/moz-password-generator/master/screenshot.png)
 
