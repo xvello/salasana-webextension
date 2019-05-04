@@ -4,7 +4,7 @@ body {
 
 form  {
   display: table;
-  padding: 1.5em;
+  border-spacing: 1em;
   z-index: 50;
 }
 
@@ -15,17 +15,15 @@ form div {
 label {
   display: table-cell;
   text-align: right;
-  padding: 0 1em;
 }
 
 input {
   display: table-cell;
   padding: 0.2em;
-  margin-bottom: 1em;
   width: 100%;
 }
 
-img.icon {
+.icon {
   width: 14em;
   height: 14em;
   position: absolute;
