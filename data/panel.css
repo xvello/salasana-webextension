@@ -1,0 +1,36 @@
+body {
+  overflow: hidden;
+}
+
+form  {
+  display: table;
+  padding: 1.5em;
+  z-index: 50;
+}
+
+form div {
+  display: table-row;
+}
+
+label {
+  display: table-cell;
+  text-align: right;
+  padding: 0 1em;
+}
+
+input {
+  display: table-cell;
+  padding: 0.2em;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+img.icon {
+  width: 14em;
+  height: 14em;
+  position: absolute;
+  bottom: -3em;
+  left: -4em;
+  opacity: 0.15;
+  z-index: 10;
+}

@@ -7,6 +7,8 @@
  * See http://pajhome.org.uk/crypt/md5 for details.
  */
 
+"use strict";
+
 var b64pad  = "";
 var chrsz   = 8;
 
