@@ -4,6 +4,7 @@ body {
 
 form  {
   display: table;
+  padding: 1em 1em 2em 3em;
   border-spacing: 1em;
   z-index: 50;
 }
@@ -24,11 +25,11 @@ input {
 }
 
 .icon {
-  width: 14em;
-  height: 14em;
+  width: 16em;
+  height: 16em;
   position: absolute;
   bottom: -3em;
-  left: -4em;
-  opacity: 0.15;
+  left: -4.5em;
+  opacity: 0.1;
   z-index: 10;
 }
