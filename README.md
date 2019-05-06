@@ -1,5 +1,5 @@
-[![Android port](https://img.shields.io/badge/Ported_on-Android-brightgreen.svg)](https://github.com/xvello/salasana-android)
-[![Bootstrap port](https://img.shields.io/badge/Ported_on-Bootstrap-brightgreen.svg)](https://github.com/xvello/html-password-generator)
+[![Android port](https://img.shields.io/badge/Ported%20on-Android-green.svg?style=popout-square&logo=android)](https://github.com/xvello/salasana-android)
+[![Bootstrap version](https://img.shields.io/badge/Ported%20on-Bootstrap-purple.svg?style=popout-square&logo=bootstrap)](https://github.com/xvello/html-password-generator)
 
 # moz-password-generator
 
