@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Salasana",
-  "version": "0.8",
+  "version": "0.8.1",
   "author": "Xavier Vello",
 
   "description": "Generates unique passwords from website's domain and master passphrase. It uses Nic Wolff's algorithm [see http://angel.net/~nic/passwd.current.html]",
