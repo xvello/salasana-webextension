@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "Salasana",
+  "version": "0.8.1",
+  "author": "Xavier Vello",
+
+  "description": "Generates unique passwords from website's domain and master passphrase. It uses Nic Wolff's algorithm [see http://angel.net/~nic/passwd.current.html]",
+  "homepage_url": "https://github.com/xvello/salasana-webextension",
+  "icons": {
+    "48": "data/icon.svg",
+    "96": "data/icon.svg"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": "data/icon.svg",
+    "default_title": "Salasana",
+    "default_popup": "data/panel.html"
+  },
+
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Alt+P"
+      },
+      "description": "Generate a password for the current website"
+    }
+  }
+}
