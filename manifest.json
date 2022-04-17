@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Salasana",
-  "version": "0.8.1",
+  "version": "0.9.0",
   "author": "Xavier Vello",
 
   "description": "Generates unique passwords from website's domain and master passphrase. It uses Nic Wolff's algorithm [see http://angel.net/~nic/passwd.current.html]",
@@ -19,7 +19,16 @@
     "browser_style": true,
     "default_icon": "data/icon.svg",
     "default_title": "Salasana",
-    "default_popup": "data/panel.html"
+    "default_popup": "data/panel.html",
+    "theme_icons": [{
+      "light": "data/icon-light.svg",
+      "dark": "data/icon-dark.svg",
+      "size": 16
+    }, {
+      "light": "data/icon-light.svg",
+      "dark": "data/icon-dark.svg",
+      "size": 32
+    }]
   },
 
   "commands": {

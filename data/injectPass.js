@@ -3,18 +3,16 @@
 "use strict";
 
 browser.runtime.onMessage.addListener((pass) => {
-  var injected = false;
-  var elements = document.getElementsByTagName('input');
+    let injected = false;
 
-  for (let e of elements) {
-    if (e.type == 'password') {
-      e.value = pass;
-      e.focus();
-      injected = true;
+    document.querySelectorAll('input[type=password]').forEach(function (input) {
+        input.value = pass;
+        input.dispatchEvent(new window.Event('change', {bubbles: true}))
+        input.focus();
+        injected = true;
+    })
+
+    if (!injected) {
+        window.prompt('Couldn\'t find a password input field.\nYour generated password is:', pass);
     }
-  }
-
-  if (!injected) {
-    window.prompt('Couldn\'t find a password input field.\nYour generated password is:', pass);
-  }
 });

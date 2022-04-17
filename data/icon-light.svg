@@ -5,7 +5,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
   <style>
     use {
-      fill: #9C27B0;
+      fill: #f9f9fa;
+      fill-opacity: 0.8;
     }
   </style>
   <defs>

@@ -1,3 +1,11 @@
+@media (prefers-color-scheme: dark) {
+  body, input {
+    background: #38383d;
+    color: white;
+  }
+  .icon { content: url("icon-light.svg");}
+}
+
 body {
   overflow: hidden;
 }
@@ -18,11 +26,21 @@ label {
   text-align: right;
 }
 
-input {
+input, button {
+  border: 1px #666 solid;
   display: table-cell;
-  padding: 0.2em;
+  padding: 0.3em;
   width: 100%;
 }
+
+button {
+  border: none;
+  padding: 0.8em;
+  background-color: #9C27B0;
+  text-align: center;
+  color: white;
+}
+
 
 .icon {
   width: 16em;
