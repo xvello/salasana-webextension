@@ -6,9 +6,10 @@ browser.runtime.onMessage.addListener((pass) => {
     let injected = false;
 
     document.querySelectorAll('input[type=password]').forEach(function (input) {
-        input.value = pass;
-        input.dispatchEvent(new window.Event('change', {bubbles: true}))
         input.focus();
+        input.value = pass;
+        input.dispatchEvent(new window.Event('input', {bubbles: true}))
+        input.dispatchEvent(new window.Event('change', {bubbles: true}))
         injected = true;
     })
 
